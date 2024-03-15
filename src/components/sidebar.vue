@@ -88,7 +88,7 @@ const items = [
     {
         icon: 'DocumentCopy',
         index: '/tabs',
-        title: 'tab选项卡',
+        title: '系统消息',
         permiss: '3',
     },
     {
@@ -135,7 +135,7 @@ const items = [
     {
         icon: 'PieChart',
         index: '/charts',
-        title: 'schart图表',
+        title: '图表',
         permiss: '11',
     },
     {
@@ -143,12 +143,6 @@ const items = [
         index: '/permission',
         title: '权限管理',
         permiss: '13',
-    },
-    {
-        icon: 'CoffeeCup',
-        index: '/donate',
-        title: '支持作者',
-        permiss: '14',
     },
 ];
 

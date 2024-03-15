@@ -12,27 +12,25 @@
 					</div>
 					<div class="user-info-list">
 						上次登录时间：
-						<span>2022-10-01</span>
+						<span>2024-3-14</span>
 					</div>
 					<div class="user-info-list">
 						上次登录地点：
-						<span>东莞</span>
+						<span>湖北</span>
 					</div>
 				</el-card>
 				<el-card shadow="hover" style="height: 252px">
 					<template #header>
 						<div class="clearfix">
-							<span>语言详情</span>
+							<span>今日业绩销量</span>
 						</div>
 					</template>
-					Vue
-					<el-progress :percentage="79.4" color="#42b983"></el-progress>
-					TypeScript
-					<el-progress :percentage="14" color="#f1e05a"></el-progress>
-					CSS
-					<el-progress :percentage="5.6"></el-progress>
-					HTML
-					<el-progress :percentage="1" color="#f56c6c"></el-progress>
+					家电类
+					<el-progress :percentage="20" color="#42b983"></el-progress>
+					百货类
+					<el-progress :percentage="25" color="#f1e05a"></el-progress>
+					食品类
+					<el-progress :percentage="56"></el-progress>
 				</el-card>
 			</el-col>
 			<el-col :span="16">
@@ -42,7 +40,7 @@
 							<div class="grid-content grid-con-1">
 								<el-icon class="grid-con-icon"><User /></el-icon>
 								<div class="grid-cont-right">
-									<div class="grid-num">1234</div>
+									<div class="grid-num">251</div>
 									<div>用户访问量</div>
 								</div>
 							</div>
@@ -53,7 +51,7 @@
 							<div class="grid-content grid-con-2">
 								<el-icon class="grid-con-icon"><ChatDotRound /></el-icon>
 								<div class="grid-cont-right">
-									<div class="grid-num">321</div>
+									<div class="grid-num">2</div>
 									<div>系统消息</div>
 								</div>
 							</div>
@@ -64,7 +62,7 @@
 							<div class="grid-content grid-con-3">
 								<el-icon class="grid-con-icon"><Goods /></el-icon>
 								<div class="grid-cont-right">
-									<div class="grid-num">5000</div>
+									<div class="grid-num">673</div>
 									<div>商品数量</div>
 								</div>
 							</div>
@@ -122,7 +120,7 @@ import { reactive } from 'vue';
 import imgurl from '../assets/img/img.jpg';
 
 const name = localStorage.getItem('ms_username');
-const role: string = name === 'admin' ? '超级管理员' : '普通用户';
+const role: string = name === 'admin' ? '管理员' : '普通用户';
 
 const options = {
 	type: 'bar',
@@ -169,27 +167,27 @@ const options2 = {
 };
 const todoList = reactive([
 	{
-		title: '今天要修复100个bug',
+		title: '完成每日报表',
 		status: false
 	},
 	{
-		title: '今天要修复100个bug',
+		title: '修bug',
 		status: false
 	},
 	{
-		title: '今天要写100行代码加几个bug吧',
+		title: '下午八点之前完成今日的工作',
 		status: false
 	},
 	{
-		title: '今天要修复100个bug',
+		title: '和朋友聚餐',
 		status: false
 	},
 	{
-		title: '今天要修复100个bug',
+		title: '今日份阅读',
 		status: true
 	},
 	{
-		title: '今天要写100行代码加几个bug吧',
+		title: '阿巴阿巴',
 		status: true
 	}
 ]);

@@ -1,9 +1,5 @@
 <template>
 	<div class="container">
-		<h2>使用方法</h2>
-		<p style="line-height: 50px">
-			直接通过设置类名为 el-icon-lx-iconName 来使用即可。例如：（共{{ iconList.length }}个图标）
-		</p>
 		<p class="example-p">
 			<i class="el-icon-lx-redpacket_fill" style="font-size: 30px; color: #ff5900"></i>
 			<span>&lt;i class=&quot;el-icon-lx-redpacket_fill&quot;&gt;&lt;/i&gt;</span>
