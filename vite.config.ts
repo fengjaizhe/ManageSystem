@@ -20,3 +20,4 @@ export default defineConfig({
 		include: ['schart.js']
 	}
 });
+
