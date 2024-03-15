@@ -1,10 +1,9 @@
 <template>
 	<div class="container">
-		<div class="plugins-tips">通过 v-permiss 自定义指令实现权限管理，使用非 admin 账号登录，可查看效果。</div>
 		<div class="mgb20">
 			<span class="label">角色：</span>
 			<el-select v-model="role" @change="handleChange">
-				<el-option label="超级管理员" value="admin"></el-option>
+				<el-option label="管理员" value="admin"></el-option>
 				<el-option label="普通用户" value="user"></el-option>
 			</el-select>
 		</div>
@@ -56,7 +55,7 @@ const data: Tree[] = [
 	},
 	{
 		id: '3',
-		label: 'tab选项卡'
+		label: '选项卡'
 	},
 	{
 		id: '4',
@@ -70,20 +69,7 @@ const data: Tree[] = [
 				id: '6',
 				label: '文件上传'
 			},
-			{
-				id: '7',
-				label: '三级菜单',
-				children: [
-					{
-						id: '8',
-						label: '富文本编辑器'
-					},
-					{
-						id: '9',
-						label: 'markdown编辑器'
-					}
-				]
-			}
+			
 		]
 	},
 	{
@@ -92,16 +78,12 @@ const data: Tree[] = [
 	},
 	{
 		id: '11',
-		label: 'schart图表'
+		label: '图表'
 	},
 
 	{
 		id: '13',
 		label: '权限管理'
-	},
-	{
-		id: '14',
-		label: '支持作者'
 	}
 ];
 

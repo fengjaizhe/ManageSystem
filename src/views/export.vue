@@ -35,18 +35,18 @@ const getData = () => {
     tableData.value = [
         {
             id: 1,
-            name: '小明',
-            sno: 'S001',
-            class: '一班',
-            age: '10',
+            name: '冯家喆',
+            sno: '202004291',
+            class: '9班',
+            age: '21',
             sex: '男',
         },
         {
             id: 2,
             name: '小红',
-            sno: 'S002',
-            class: '一班',
-            age: '9',
+            sno: '202004001',
+            class: '1班',
+            age: '20',
             sex: '女',
         },
     ];

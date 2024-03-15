@@ -1,10 +1,6 @@
 <template>
     <div class="container">
         <div class="content-title">支持拖拽</div>
-        <div class="plugins-tips">
-            Element Plus自带上传组件。 访问地址：
-            <a href="https://element-plus.org/zh-CN/component/upload.html" target="_blank">Element Plus Upload</a>
-        </div>
         <el-upload
             class="upload-demo"
             drag
@@ -20,11 +16,6 @@
         </el-upload>
 
         <div class="content-title">支持裁剪</div>
-        <div class="plugins-tips">
-            vue-cropperjs：一个封装了 cropperjs 的 Vue 组件。 访问地址：
-            <a href="https://github.com/Agontuk/vue-cropperjs" target="_blank">vue-cropperjs</a>。 示例请查看
-            <router-link to="/user">个人中心</router-link>
-        </div>
     </div>
 </template>
 
